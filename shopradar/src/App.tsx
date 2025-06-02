@@ -1,15 +1,29 @@
 import './App.css'
-import Header from './components/Header'
+import Header from './components/Header' 
 
 function App() {
   return (
-    <>  
+    <>
       <Header />
-      <div style={{ backgroundImage: "var(--color-gradient-light)" }}
-      className="h-screen">
-        <h1 className="text-3xl font-bold text-center mb-4">Welcome to ShopRadar</h1>
-        <p className="text-center text-lg">Your one-stop shop for all things shopping!</p>
-      </div>
+      <section style={{ backgroundImage: "var(--color-gradient-light)" }}
+        className="pb-60 pt-20 flex flex-col items-center justify-center">
+        <h1 className="text-6xl text-gray-200 font-bold text-center mb-5">Encuentra los <span className='font-extrabold text-white'>mejores productos</span></h1>
+        <p className="text-xl text-center text-white w-1/2">Compara precios en tiempo real de todos los productos de los supermercados más populares en España con una sola busqueda</p>
+        <div className="mt-10">
+          <ul className="flex space-x-4">
+            <li className="bg-white/30 backdrop-blur-md text-white px-5 py-2 rounded-full hover:bg-white/30 transition-colors">
+              <a href="/ofertas">Ofertas</a>
+            </li>
+            <li className="bg-white/30 backdrop-blur-md text-white px-5 py-2 rounded-full hover:bg-white/30 transition-colors">
+              <a href="/supermercados"> Supermercados</a>
+            </li>
+            <li className="bg-white/30 backdrop-blur-md text-white px-5 py-2 rounded-full hover:bg-white/30 transition-colors">
+              <a href="/contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+
+      </section>
     </>
   )
 }

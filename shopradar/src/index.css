@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+:root {
+  --color-background-primary-light: #f8f9fa;
+  --color-gradient-light: linear-gradient(to right, #fbbf24, #f97316);
+  --color-background-primary-dark: #181a1b;
+}

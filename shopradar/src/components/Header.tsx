@@ -6,9 +6,9 @@ function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header>
+        <header className="sticky top-0 z-100 w-full">
             {/* Nav Desktop */}
-            <nav className="sticky top-0 z-50 bg-primary-light text-black px-4 py-3 flex flex-wrap items-center justify-evenly hidden sm:flex">
+            <nav className="bg-primary-light text-black py-3 flex flex-wrap items-center justify-evenly hidden sm:flex">
                 <div className="flex items-center space-x-2">
                     <img
                         src="src/assets/icon.jpg"

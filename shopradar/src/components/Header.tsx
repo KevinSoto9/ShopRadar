@@ -1,4 +1,6 @@
 import { useState } from "react";
+import HamburguesaAbierta from "./icons/HamburguesaAbierta";
+import HamburguesaCerrada from "./icons/HamburguesaCerrada";
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +13,7 @@ function Header() {
                     <img
                         src="src/assets/icon.jpg"
                         alt="ShopRadar Logo"
-                        className="h-8 w-8"
+                        className="size-8"
                     />
                     <h2
                         className="text-transparent bg-clip-text font-bold text-xl sm:text-2xl"
@@ -66,34 +68,16 @@ function Header() {
                         className="focus:outline-none"
                         aria-label="Toggle menu"
                     >
-                        {/* Aquí puedes poner tus propios iconos SVG */}
+
                         {isOpen ? (
-                            // Ícono de cerrar (X)
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-6 w-6"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                            >
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                            </svg>
+                            <HamburguesaCerrada/>
                         ) : (
-                            // Ícono de hamburguesa
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-6 w-6"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                            >
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                            </svg>
+                            <HamburguesaAbierta/>
                         )}
                     </button>
                 </div>
 
-                {/* Menú colapsable con transición suave */}
+                {/* Menú colapsable*/}
                 <div
                     className={`transition-all duration-300 ease-in-out overflow-hidden ${isOpen ? "max-h-96 mt-4" : "max-h-0"
                         }`}

@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd shopradar && npm install && npm run build",
+  "outputDirectory": "shopradar/dist",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+} 

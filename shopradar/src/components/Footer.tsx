@@ -5,7 +5,7 @@ function Footer() {
         <div className="flex flex-col space-y-3">
           <div className="flex items-center space-x-2">
             <img
-              src="/icon.ico"
+              src="src\assets\icon.jpg"
               alt="ShopRadar Logo"
               className="w-8 h-8 object-contain"
             />

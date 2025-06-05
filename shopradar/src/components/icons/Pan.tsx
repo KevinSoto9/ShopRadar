@@ -2,6 +2,8 @@ function Pan() {
   return (
      <svg
     fill="#000000"
+    width={60}
+    height={60}
     viewBox="-18.94 -18.94 227.33 227.33"
     xmlns="http://www.w3.org/2000/svg"
   >

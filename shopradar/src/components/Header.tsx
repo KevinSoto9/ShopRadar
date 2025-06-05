@@ -11,7 +11,7 @@ function Header() {
             <nav className="bg-primary-light text-black py-3 flex flex-wrap items-center justify-evenly hidden sm:flex">
                 <div className="flex items-center space-x-2">
                     <img
-                        src="src/assets/icon.jpg"
+                        src="src\assets\icon.jpg"
                         alt="ShopRadar Logo"
                         className="size-8"
                     />

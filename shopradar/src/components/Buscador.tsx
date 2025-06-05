@@ -13,7 +13,7 @@ function Buscador() {
     const isInputEmpty = busqueda.trim() === "";
 
     return (
-        <div className="relative -top-20 bg-white shadow-2xl rounded-xl p-7 max-w-4xl mx-auto mb-4 z-50">
+        <div className="relative -top-20 bg-white shadow-2xl rounded-2xl p-7 max-w-4xl mx-auto mb-4 z-50">
             <form className="flex flex-col md:flex-row gap-4 items-center mt-2">
                 <div className="relative flex-1">
                     <span className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">
@@ -33,13 +33,13 @@ function Buscador() {
                     style={{ backgroundImage: "var(--color-gradient-light)" }}
                     className={`flex items-center justify-center gap-x-3 font-bold text-white px-20 xs:px-10 py-4 rounded-xl transition-all duration-300 ease-in-out transform ${isInputEmpty
                             ? "opacity-60 cursor-not-allowed"
-                            : "opacity-100 hover:scale-105"
+                            : "opacity-100 hover:scale-105 hover:cursor-pointer"
                         }`}
                 >
                     <Lupa /> Buscar
                 </button>
             </form>
-            <div className="flex flex-wrap mt-8 text-gray-500 text-sm mb-2 gap-4 items-center">
+            <div className="flex flex-wrap mt-6 text-gray-500 text-sm gap-4 items-center">
                 <span className="font-bold">Búsquedas populares:</span>
                 <ElementoBusqueda nombre="Leche" />
                 <ElementoBusqueda nombre="Pan" />

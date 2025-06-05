@@ -1,0 +1,1328 @@
+{
+  "supermarkets": [
+    {
+      "name": "SuperMercado España",
+      "products": [
+        {
+          "id": "SM001",
+          "name": "Leche Entera 1L",
+          "price": 1.19,
+          "originalPrice": 1.49,
+          "discount": 20,
+          "image": "",
+          "category": "Lácteos",
+          "brand": "Lácteos del Norte"
+        },
+        {
+          "id": "SM002",
+          "name": "Pan Integral 500g",
+          "price": 2.49,
+          "image": "",
+          "category": "Panadería",
+          "brand": "Panadería Artesanal"
+        },
+        {
+          "id": "SM003",
+          "name": "Aceite de Oliva Virgen Extra 1L",
+          "price": 8.99,
+          "originalPrice": 12.99,
+          "discount": 31,
+          "image": "",
+          "category": "Aceites",
+          "brand": "Aceites del Sur"
+        },
+        {
+          "id": "SM004",
+          "name": "Jamón Serrano 100g",
+          "price": 4.99,
+          "image": "",
+          "category": "Charcutería",
+          "brand": "Embutidos Selectos"
+        },
+        {
+          "id": "SM005",
+          "name": "Arroz Bomba 1kg",
+          "price": 3.29,
+          "originalPrice": 4.29,
+          "discount": 23,
+          "image": "",
+          "category": "Arroces",
+          "brand": "Arroces del Mediterráneo"
+        },
+        {
+          "id": "SM006",
+          "name": "Yogur Natural 4x125g",
+          "price": 1.89,
+          "originalPrice": 2.49,
+          "discount": 24,
+          "image": "",
+          "category": "Lácteos",
+          "brand": "Lácteos del Norte"
+        },
+        {
+          "id": "SM007",
+          "name": "Tomates Pera 500g",
+          "price": 2.29,
+          "image": "",
+          "category": "Verduras",
+          "brand": "Huerta Fresca"
+        },
+        {
+          "id": "SM008",
+          "name": "Pollo Entero 1.5kg",
+          "price": 6.99,
+          "originalPrice": 8.99,
+          "discount": 22,
+          "image": "",
+          "category": "Carnes",
+          "brand": "Carnes Selectas"
+        },
+        {
+          "id": "SM009",
+          "name": "Café Molido 250g",
+          "price": 4.49,
+          "image": "",
+          "category": "Café",
+          "brand": "Café del Sur"
+        },
+        {
+          "id": "SM010",
+          "name": "Pasta Espaguetis 500g",
+          "price": 1.29,
+          "originalPrice": 1.79,
+          "discount": 28,
+          "image": "",
+          "category": "Pasta",
+          "brand": "Pasta Italiana"
+        },
+        {
+          "id": "SM011",
+          "name": "Huevos 12 unidades",
+          "price": 2.99,
+          "image": "",
+          "category": "Huevos",
+          "brand": "Granja Feliz"
+        },
+        {
+          "id": "SM012",
+          "name": "Atún en Aceite 4x80g",
+          "price": 3.49,
+          "image": "",
+          "category": "Conservas",
+          "brand": "Pescados del Norte"
+        },
+        {
+          "id": "SM013",
+          "name": "Manzanas Golden 1kg",
+          "price": 1.99,
+          "image": "",
+          "category": "Frutas",
+          "brand": "Frutas del Valle"
+        },
+        {
+          "id": "SM014",
+          "name": "Detergente Líquido 2L",
+          "price": 5.99,
+          "image": "",
+          "category": "Limpieza",
+          "brand": "Limpieza Total"
+        },
+        {
+          "id": "SM015",
+          "name": "Agua Mineral 6x1.5L",
+          "price": 2.99,
+          "image": "",
+          "category": "Bebidas",
+          "brand": "Agua Pura"
+        },
+        {
+          "id": "SM016",
+          "name": "Salmón Fresco 300g",
+          "price": 8.99,
+          "image": "",
+          "category": "Pescados",
+          "brand": "Pescados Premium"
+        },
+        {
+          "id": "SM017",
+          "name": "Queso Manchego 250g",
+          "price": 6.49,
+          "image": "",
+          "category": "Lácteos",
+          "brand": "Quesos del Campo"
+        },
+        {
+          "id": "SM018",
+          "name": "Aguacates 3 unidades",
+          "price": 3.99,
+          "image": "",
+          "category": "Frutas",
+          "brand": "Frutas Exóticas"
+        },
+        {
+          "id": "SM019",
+          "name": "Vino Tinto 750ml",
+          "price": 7.99,
+          "image": "",
+          "category": "Vinos",
+          "brand": "Viñedos del Sur"
+        },
+        {
+          "id": "SM020",
+          "name": "Chorizo Ibérico 200g",
+          "price": 9.99,
+          "image": "",
+          "category": "Charcutería",
+          "brand": "Embutidos Selectos"
+        },
+        {
+          "id": "SM021",
+          "name": "Mantequilla 250g",
+          "price": 2.99,
+          "image": "",
+          "category": "Lácteos",
+          "brand": "Lácteos del Norte"
+        },
+        {
+          "id": "SM022",
+          "name": "Cereales 500g",
+          "price": 3.49,
+          "image": "",
+          "category": "Desayunos",
+          "brand": "Cereales del Campo"
+        },
+        {
+          "id": "SM023",
+          "name": "Galletas María 500g",
+          "price": 1.99,
+          "image": "",
+          "category": "Galletas",
+          "brand": "Dulces Tradicionales"
+        },
+        {
+          "id": "SM024",
+          "name": "Mermelada 340g",
+          "price": 2.49,
+          "image": "",
+          "category": "Mermeladas",
+          "brand": "Frutas del Valle"
+        },
+        {
+          "id": "SM025",
+          "name": "Miel 500g",
+          "price": 4.99,
+          "image": "",
+          "category": "Miel",
+          "brand": "Mieles Naturales"
+        },
+        {
+          "id": "SM026",
+          "name": "Aceitunas 200g",
+          "price": 2.99,
+          "image": "",
+          "category": "Conservas",
+          "brand": "Conservas del Sur"
+        },
+        {
+          "id": "SM027",
+          "name": "Sardinas en Aceite 4x80g",
+          "price": 3.99,
+          "image": "",
+          "category": "Conservas",
+          "brand": "Pescados del Norte"
+        },
+        {
+          "id": "SM028",
+          "name": "Garbanzos 500g",
+          "price": 1.49,
+          "image": "",
+          "category": "Legumbres",
+          "brand": "Legumbres Selectas"
+        },
+        {
+          "id": "SM029",
+          "name": "Lentejas 500g",
+          "price": 1.49,
+          "image": "",
+          "category": "Legumbres",
+          "brand": "Legumbres Selectas"
+        },
+        {
+          "id": "SM030",
+          "name": "Harina de Trigo 1kg",
+          "price": 0.99,
+          "image": "",
+          "category": "Harinas",
+          "brand": "Harinas del Campo"
+        },
+        {
+          "id": "SM031",
+          "name": "Azúcar 1kg",
+          "price": 0.99,
+          "image": "",
+          "category": "Azúcares",
+          "brand": "Dulces Naturales"
+        },
+        {
+          "id": "SM032",
+          "name": "Sal 1kg",
+          "price": 0.49,
+          "image": "",
+          "category": "Especias",
+          "brand": "Especias Selectas"
+        },
+        {
+          "id": "SM033",
+          "name": "Pimienta Negra 50g",
+          "price": 1.99,
+          "image": "",
+          "category": "Especias",
+          "brand": "Especias Selectas"
+        },
+        {
+          "id": "SM034",
+          "name": "Vinagre de Vino 750ml",
+          "price": 1.49,
+          "image": "",
+          "category": "Vinagres",
+          "brand": "Vinagres del Sur"
+        },
+        {
+          "id": "SM035",
+          "name": "Mostaza 200g",
+          "price": 1.99,
+          "image": "",
+          "category": "Salsas",
+          "brand": "Salsas Selectas"
+        },
+        {
+          "id": "SM036",
+          "name": "Ketchup 500g",
+          "price": 1.99,
+          "image": "",
+          "category": "Salsas",
+          "brand": "Salsas Selectas"
+        },
+        {
+          "id": "SM037",
+          "name": "Mayonesa 500g",
+          "price": 1.99,
+          "image": "",
+          "category": "Salsas",
+          "brand": "Salsas Selectas"
+        },
+        {
+          "id": "SM038",
+          "name": "Patatas Fritas 150g",
+          "price": 1.99,
+          "image": "",
+          "category": "Snacks",
+          "brand": "Snacks Selectos"
+        },
+        {
+          "id": "SM039",
+          "name": "Frutos Secos 200g",
+          "price": 3.99,
+          "image": "",
+          "category": "Snacks",
+          "brand": "Snacks Selectos"
+        },
+        {
+          "id": "SM040",
+          "name": "Chocolate Negro 100g",
+          "price": 1.99,
+          "image": "",
+          "category": "Chocolates",
+          "brand": "Chocolates Selectos"
+        },
+        {
+          "id": "SM041",
+          "name": "Galletas Digestivas 500g",
+          "price": 1.99,
+          "image": "",
+          "category": "Galletas",
+          "brand": "Dulces Tradicionales"
+        },
+        {
+          "id": "SM042",
+          "name": "Coca-Cola 2L",
+          "price": 1.99,
+          "image": "",
+          "category": "Bebidas",
+          "brand": "Bebidas Refrescantes"
+        },
+        {
+          "id": "SM043",
+          "name": "Zumo de Naranja 1L",
+          "price": 1.99,
+          "image": "",
+          "category": "Bebidas",
+          "brand": "Zumos Naturales"
+        },
+        {
+          "id": "SM044",
+          "name": "Cerveza 6x330ml",
+          "price": 3.99,
+          "image": "",
+          "category": "Bebidas",
+          "brand": "Cervezas Artesanas"
+        },
+        {
+          "id": "SM045",
+          "name": "Vino Blanco 750ml",
+          "price": 4.99,
+          "image": "",
+          "category": "Vinos",
+          "brand": "Viñedos del Sur"
+        },
+        {
+          "id": "SM046",
+          "name": "Whisky 700ml",
+          "price": 15.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "Licores Selectos"
+        },
+        {
+          "id": "SM047",
+          "name": "Ginebra 700ml",
+          "price": 12.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "Licores Selectos"
+        },
+        {
+          "id": "SM048",
+          "name": "Ron 700ml",
+          "price": 14.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "Licores Selectos"
+        },
+        {
+          "id": "SM049",
+          "name": "Vodka 700ml",
+          "price": 13.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "Licores Selectos"
+        },
+        {
+          "id": "SM050",
+          "name": "Vermut 1L",
+          "price": 8.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "Licores Selectos"
+        }
+      ]
+    },
+    {
+      "name": "MercadoPlus",
+      "products": [
+        {
+          "id": "MP001",
+          "name": "Leche Semidesnatada 1L",
+          "price": 0.99,
+          "originalPrice": 1.09,
+          "discount": 9,
+          "image": "",
+          "category": "Lácteos",
+          "brand": "Pascual"
+        },
+        {
+          "id": "MP002",
+          "name": "Pan de Molde 500g",
+          "price": 1.79,
+          "originalPrice": 1.99,
+          "discount": 10,
+          "image": "",
+          "category": "Panadería",
+          "brand": "Bimbo"
+        },
+        {
+          "id": "MP003",
+          "name": "Aceite de Girasol 1L",
+          "price": 2.69,
+          "originalPrice": 2.99,
+          "discount": 10,
+          "image": "",
+          "category": "Aceites",
+          "brand": "Carbonell"
+        },
+        {
+          "id": "MP004",
+          "name": "Jamón York 200g",
+          "price": 3.59,
+          "originalPrice": 3.99,
+          "discount": 10,
+          "image": "",
+          "category": "Charcutería",
+          "brand": "Campofrío"
+        },
+        {
+          "id": "MP005",
+          "name": "Arroz Redondo 1kg",
+          "price": 1.79,
+          "originalPrice": 1.99,
+          "discount": 10,
+          "image": "",
+          "category": "Arroces",
+          "brand": "Sos"
+        },
+        {
+          "id": "MP006",
+          "name": "Yogur de Fresa 4x125g",
+          "price": 1.69,
+          "originalPrice": 1.89,
+          "discount": 11,
+          "image": "",
+          "category": "Lácteos",
+          "brand": "Danone"
+        },
+        {
+          "id": "MP007",
+          "name": "Lechuga Iceberg",
+          "price": 1.09,
+          "originalPrice": 1.29,
+          "discount": 16,
+          "image": "",
+          "category": "Verduras",
+          "brand": "Huerta Fresca"
+        },
+        {
+          "id": "MP008",
+          "name": "Pechuga de Pollo 500g",
+          "price": 4.49,
+          "originalPrice": 4.99,
+          "discount": 10,
+          "image": "",
+          "category": "Carnes",
+          "brand": "El Pozo"
+        },
+        {
+          "id": "MP009",
+          "name": "Café en Grano 250g",
+          "price": 4.49,
+          "originalPrice": 4.99,
+          "discount": 10,
+          "image": "",
+          "category": "Café",
+          "brand": "Marcilla"
+        },
+        {
+          "id": "MP010",
+          "name": "Pasta Macarrones 500g",
+          "price": 1.09,
+          "originalPrice": 1.29,
+          "discount": 16,
+          "image": "",
+          "category": "Pasta",
+          "brand": "Barilla"
+        },
+        {
+          "id": "MP011",
+          "name": "Huevos 6 unidades",
+          "price": 1.99,
+          "image": "",
+          "category": "Huevos",
+          "brand": "Granja San Francisco"
+        },
+        {
+          "id": "MP012",
+          "name": "Atún en Escabeche 4x80g",
+          "price": 3.49,
+          "image": "",
+          "category": "Conservas",
+          "brand": "Calvo"
+        },
+        {
+          "id": "MP013",
+          "name": "Plátanos 1kg",
+          "price": 1.99,
+          "image": "",
+          "category": "Frutas",
+          "brand": "Frutas del Valle"
+        },
+        {
+          "id": "MP014",
+          "name": "Suavizante 2L",
+          "price": 4.99,
+          "image": "",
+          "category": "Limpieza",
+          "brand": "Mimosín"
+        },
+        {
+          "id": "MP015",
+          "name": "Agua con Gas 6x1.5L",
+          "price": 3.99,
+          "image": "",
+          "category": "Bebidas",
+          "brand": "Font Vella"
+        },
+        {
+          "id": "MP016",
+          "name": "Merluza 500g",
+          "price": 7.99,
+          "image": "",
+          "category": "Pescados",
+          "brand": "Pescados Premium"
+        },
+        {
+          "id": "MP017",
+          "name": "Queso Gouda 250g",
+          "price": 4.99,
+          "originalPrice": 5.49,
+          "discount": 9,
+          "image": "",
+          "category": "Lácteos",
+          "brand": "Quesos del Campo"
+        },
+        {
+          "id": "MP018",
+          "name": "Plátanos 1kg",
+          "price": 1.99,
+          "image": "",
+          "category": "Frutas",
+          "brand": "Frutas del Valle"
+        },
+        {
+          "id": "MP019",
+          "name": "Vino Rosado 750ml",
+          "price": 5.99,
+          "image": "",
+          "category": "Vinos",
+          "brand": "Viña Albali"
+        },
+        {
+          "id": "MP020",
+          "name": "Salchichón 200g",
+          "price": 3.99,
+          "image": "",
+          "category": "Charcutería",
+          "brand": "Campofrío"
+        },
+        {
+          "id": "MP021",
+          "name": "Mantequilla Light 250g",
+          "price": 2.99,
+          "image": "",
+          "category": "Lácteos",
+          "brand": "Lurpak"
+        },
+        {
+          "id": "MP022",
+          "name": "Cereales Chocolate 500g",
+          "price": 3.49,
+          "image": "",
+          "category": "Desayunos",
+          "brand": "Kellogg's"
+        },
+        {
+          "id": "MP023",
+          "name": "Galletas Chocolate 500g",
+          "price": 1.99,
+          "image": "",
+          "category": "Galletas",
+          "brand": "Cuétara"
+        },
+        {
+          "id": "MP024",
+          "name": "Mermelada Fresa 340g",
+          "price": 2.49,
+          "image": "",
+          "category": "Mermeladas",
+          "brand": "Hero"
+        },
+        {
+          "id": "MP025",
+          "name": "Miel de Azahar 500g",
+          "price": 4.99,
+          "image": "",
+          "category": "Miel",
+          "brand": "Apis"
+        },
+        {
+          "id": "MP026",
+          "name": "Aceitunas Rellenas 200g",
+          "price": 2.99,
+          "image": "",
+          "category": "Conservas",
+          "brand": "La Española"
+        },
+        {
+          "id": "MP027",
+          "name": "Sardinas en Tomate 4x80g",
+          "price": 3.99,
+          "image": "",
+          "category": "Conservas",
+          "brand": "Rianxeira"
+        },
+        {
+          "id": "MP028",
+          "name": "Garbanzos Cocidos 500g",
+          "price": 1.49,
+          "image": "",
+          "category": "Legumbres",
+          "brand": "Litoral"
+        },
+        {
+          "id": "MP029",
+          "name": "Lentejas Cocidas 500g",
+          "price": 1.49,
+          "image": "",
+          "category": "Legumbres",
+          "brand": "Litoral"
+        },
+        {
+          "id": "MP030",
+          "name": "Harina de Maíz 1kg",
+          "price": 1.99,
+          "image": "",
+          "category": "Harinas",
+          "brand": "Gallina Blanca"
+        },
+        {
+          "id": "MP031",
+          "name": "Azúcar Moreno 1kg",
+          "price": 1.99,
+          "image": "",
+          "category": "Azúcares",
+          "brand": "Azucarera"
+        },
+        {
+          "id": "MP032",
+          "name": "Sal Marina 1kg",
+          "price": 0.99,
+          "image": "",
+          "category": "Especias",
+          "brand": "La Fina"
+        },
+        {
+          "id": "MP033",
+          "name": "Pimienta Blanca 50g",
+          "price": 1.99,
+          "image": "",
+          "category": "Especias",
+          "brand": "La Fina"
+        },
+        {
+          "id": "MP034",
+          "name": "Vinagre de Manzana 750ml",
+          "price": 1.99,
+          "image": "",
+          "category": "Vinagres",
+          "brand": "La Española"
+        },
+        {
+          "id": "MP035",
+          "name": "Mostaza Dijon 200g",
+          "price": 2.49,
+          "image": "",
+          "category": "Salsas",
+          "brand": "Heinz"
+        },
+        {
+          "id": "MP036",
+          "name": "Ketchup Picante 500g",
+          "price": 2.49,
+          "image": "",
+          "category": "Salsas",
+          "brand": "Heinz"
+        },
+        {
+          "id": "MP037",
+          "name": "Mayonesa Light 500g",
+          "price": 2.49,
+          "image": "",
+          "category": "Salsas",
+          "brand": "Hellmann's"
+        },
+        {
+          "id": "MP038",
+          "name": "Patatas Fritas Onduladas 150g",
+          "price": 1.99,
+          "image": "",
+          "category": "Snacks",
+          "brand": "Lay's"
+        },
+        {
+          "id": "MP039",
+          "name": "Mix Frutos Secos 200g",
+          "price": 4.99,
+          "image": "",
+          "category": "Snacks",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "MP040",
+          "name": "Chocolate con Leche 100g",
+          "price": 1.99,
+          "image": "",
+          "category": "Chocolates",
+          "brand": "Valor"
+        },
+        {
+          "id": "MP041",
+          "name": "Galletas María Chocolate 500g",
+          "price": 1.99,
+          "image": "",
+          "category": "Galletas",
+          "brand": "Cuétara"
+        },
+        {
+          "id": "MP042",
+          "name": "Fanta Naranja 2L",
+          "price": 1.99,
+          "image": "",
+          "category": "Bebidas",
+          "brand": "Coca-Cola"
+        },
+        {
+          "id": "MP043",
+          "name": "Zumo de Piña 1L",
+          "price": 1.99,
+          "image": "",
+          "category": "Bebidas",
+          "brand": "Don Simón"
+        },
+        {
+          "id": "MP044",
+          "name": "Cerveza Sin Alcohol 6x330ml",
+          "price": 3.99,
+          "image": "",
+          "category": "Bebidas",
+          "brand": "Mahou"
+        },
+        {
+          "id": "MP045",
+          "name": "Vino Rosado 750ml",
+          "price": 4.99,
+          "image": "",
+          "category": "Vinos",
+          "brand": "Viña Albali"
+        },
+        {
+          "id": "MP046",
+          "name": "Whisky 12 años 700ml",
+          "price": 25.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "DYC"
+        },
+        {
+          "id": "MP047",
+          "name": "Ginebra Premium 700ml",
+          "price": 19.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "Larios"
+        },
+        {
+          "id": "MP048",
+          "name": "Ron Añejo 700ml",
+          "price": 19.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "Barceló"
+        },
+        {
+          "id": "MP049",
+          "name": "Vodka Premium 700ml",
+          "price": 19.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "Eristoff"
+        },
+        {
+          "id": "MP050",
+          "name": "Vermut Rojo 1L",
+          "price": 8.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "Yzaguirre"
+        }
+      ]
+    },
+    {
+      "name": "SuperAhorro",
+      "products": [
+        {
+          "id": "SA001",
+          "name": "Leche Desnatada 1L",
+          "price": 0.89,
+          "originalPrice": 0.99,
+          "discount": 10,
+          "image": "",
+          "category": "Lácteos",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA002",
+          "name": "Pan de Barra 400g",
+          "price": 0.79,
+          "originalPrice": 0.89,
+          "discount": 11,
+          "image": "",
+          "category": "Panadería",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA003",
+          "name": "Aceite de Oliva 1L",
+          "price": 4.49,
+          "originalPrice": 4.99,
+          "discount": 10,
+          "image": "",
+          "category": "Aceites",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA004",
+          "name": "Jamón Cocido 200g",
+          "price": 2.69,
+          "originalPrice": 2.99,
+          "discount": 10,
+          "image": "",
+          "category": "Charcutería",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA005",
+          "name": "Arroz Largo 1kg",
+          "price": 1.09,
+          "originalPrice": 1.29,
+          "discount": 16,
+          "image": "",
+          "category": "Arroces",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA006",
+          "name": "Yogur Natural 8x125g",
+          "price": 1.79,
+          "originalPrice": 1.99,
+          "discount": 10,
+          "image": "",
+          "category": "Lácteos",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA007",
+          "name": "Tomates 1kg",
+          "price": 1.29,
+          "originalPrice": 1.49,
+          "discount": 13,
+          "image": "",
+          "category": "Verduras",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA008",
+          "name": "Muslos de Pollo 1kg",
+          "price": 3.59,
+          "originalPrice": 3.99,
+          "discount": 10,
+          "image": "",
+          "category": "Carnes",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA009",
+          "name": "Café Soluble 100g",
+          "price": 2.69,
+          "originalPrice": 2.99,
+          "discount": 10,
+          "image": "",
+          "category": "Café",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA010",
+          "name": "Pasta Tallarines 500g",
+          "price": 0.89,
+          "originalPrice": 0.99,
+          "discount": 10,
+          "image": "",
+          "category": "Pasta",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA011",
+          "name": "Huevos 12 unidades",
+          "price": 2.49,
+          "image": "",
+          "category": "Huevos",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA012",
+          "name": "Atún en Aceite 4x80g",
+          "price": 2.99,
+          "image": "",
+          "category": "Conservas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA013",
+          "name": "Naranjas 2kg",
+          "price": 2.99,
+          "image": "",
+          "category": "Frutas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA014",
+          "name": "Detergente Líquido 3L",
+          "price": 4.99,
+          "image": "",
+          "category": "Limpieza",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA015",
+          "name": "Agua Mineral 8x1.5L",
+          "price": 2.99,
+          "image": "",
+          "category": "Bebidas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA016",
+          "name": "Pescado Blanco 500g",
+          "price": 5.99,
+          "image": "",
+          "category": "Pescados",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA017",
+          "name": "Queso Semicurado 250g",
+          "price": 3.99,
+          "image": "",
+          "category": "Lácteos",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA018",
+          "name": "Plátanos 1.5kg",
+          "price": 1.99,
+          "image": "",
+          "category": "Frutas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA019",
+          "name": "Vino Tinto 1L",
+          "price": 2.99,
+          "image": "",
+          "category": "Vinos",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA020",
+          "name": "Chorizo 200g",
+          "price": 2.99,
+          "image": "",
+          "category": "Charcutería",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA021",
+          "name": "Mantequilla 250g",
+          "price": 2.49,
+          "image": "",
+          "category": "Lácteos",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA022",
+          "name": "Cereales 750g",
+          "price": 2.99,
+          "image": "",
+          "category": "Desayunos",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA023",
+          "name": "Galletas María 1kg",
+          "price": 1.99,
+          "image": "",
+          "category": "Galletas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA024",
+          "name": "Mermelada 500g",
+          "price": 1.99,
+          "image": "",
+          "category": "Mermeladas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA025",
+          "name": "Miel 500g",
+          "price": 3.99,
+          "image": "",
+          "category": "Miel",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA026",
+          "name": "Aceitunas 400g",
+          "price": 2.49,
+          "image": "",
+          "category": "Conservas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA027",
+          "name": "Sardinas 4x80g",
+          "price": 2.99,
+          "image": "",
+          "category": "Conservas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA028",
+          "name": "Garbanzos 1kg",
+          "price": 1.99,
+          "image": "",
+          "category": "Legumbres",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA029",
+          "name": "Lentejas 1kg",
+          "price": 1.99,
+          "image": "",
+          "category": "Legumbres",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA030",
+          "name": "Harina 1kg",
+          "price": 0.89,
+          "image": "",
+          "category": "Harinas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA031",
+          "name": "Azúcar 1kg",
+          "price": 0.89,
+          "image": "",
+          "category": "Azúcares",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA032",
+          "name": "Sal 1kg",
+          "price": 0.49,
+          "image": "",
+          "category": "Especias",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA033",
+          "name": "Pimienta 50g",
+          "price": 1.49,
+          "image": "",
+          "category": "Especias",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA034",
+          "name": "Vinagre 750ml",
+          "price": 1.49,
+          "image": "",
+          "category": "Vinagres",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA035",
+          "name": "Mostaza 200g",
+          "price": 1.49,
+          "image": "",
+          "category": "Salsas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA036",
+          "name": "Ketchup 500g",
+          "price": 1.49,
+          "image": "",
+          "category": "Salsas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA037",
+          "name": "Mayonesa 500g",
+          "price": 1.49,
+          "image": "",
+          "category": "Salsas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA038",
+          "name": "Patatas Fritas 200g",
+          "price": 1.49,
+          "image": "",
+          "category": "Snacks",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA039",
+          "name": "Frutos Secos 250g",
+          "price": 2.99,
+          "image": "",
+          "category": "Snacks",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA040",
+          "name": "Chocolate 100g",
+          "price": 1.49,
+          "image": "",
+          "category": "Chocolates",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA041",
+          "name": "Galletas Digestivas 500g",
+          "price": 1.49,
+          "image": "",
+          "category": "Galletas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA042",
+          "name": "Cola 2L",
+          "price": 1.49,
+          "image": "",
+          "category": "Bebidas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA043",
+          "name": "Zumo 1L",
+          "price": 1.49,
+          "image": "",
+          "category": "Bebidas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA044",
+          "name": "Cerveza 6x330ml",
+          "price": 2.99,
+          "image": "",
+          "category": "Bebidas",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA045",
+          "name": "Vino Blanco 1L",
+          "price": 2.99,
+          "image": "",
+          "category": "Vinos",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA046",
+          "name": "Whisky 700ml",
+          "price": 12.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA047",
+          "name": "Ginebra 700ml",
+          "price": 9.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA048",
+          "name": "Ron 700ml",
+          "price": 9.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA049",
+          "name": "Vodka 700ml",
+          "price": 9.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "Hacendado"
+        },
+        {
+          "id": "SA050",
+          "name": "Vermut 1L",
+          "price": 4.99,
+          "image": "",
+          "category": "Licores",
+          "brand": "Hacendado"
+        }
+      ]
+    },
+    {
+      "name": "MercadoFresco",
+      "products": [
+        {
+          "id": "MF001",
+          "name": "Salmón Fresco 300g",
+          "price": 7.99,
+          "originalPrice": 8.99,
+          "discount": 11,
+          "image": "",
+          "category": "Pescados",
+          "brand": "Pescados Premium"
+        },
+        {
+          "id": "MF002",
+          "name": "Queso Manchego 250g",
+          "price": 5.99,
+          "originalPrice": 6.49,
+          "discount": 8,
+          "image": "",
+          "category": "Lácteos",
+          "brand": "Quesos del Campo"
+        },
+        {
+          "id": "MF003",
+          "name": "Aguacates 3 unidades",
+          "price": 3.49,
+          "originalPrice": 3.99,
+          "discount": 13,
+          "image": "",
+          "category": "Frutas",
+          "brand": "Frutas Exóticas"
+        },
+        {
+          "id": "MF004",
+          "name": "Vino Tinto 750ml",
+          "price": 6.99,
+          "originalPrice": 7.99,
+          "discount": 13,
+          "image": "",
+          "category": "Vinos",
+          "brand": "Viñedos del Sur"
+        },
+        {
+          "id": "MF005",
+          "name": "Chorizo Ibérico 200g",
+          "price": 8.99,
+          "originalPrice": 9.99,
+          "discount": 10,
+          "image": "",
+          "category": "Charcutería",
+          "brand": "Embutidos Selectos"
+        }
+      ]
+    }
+  ]
+} 

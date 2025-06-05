@@ -42,13 +42,13 @@ function ContenidoInicio() {
 
                 <div className="flex md:flex-row flex-col md:gap-30 gap-10 items-center justify-evenly shadow-lg backdrop-blur-md rounded-2xl p-6 mt-10 w-full font-Switzer">
                     <span className="text-blue-500 text-3xl flex flex-col items-center justify-center gap-2 font-bold">
-                        50 +
+                        4
                         <p className="text-gray-700 text-base font-normal">
                             Supermercados 
                         </p>
                     </span>
                     <span className="text-green-500 text-3xl flex flex-col items-center justify-center gap-2 font-bold">
-                        10K +
+                        200
                         <p className="text-gray-700 text-base font-normal">
                             Productos
                         </p>

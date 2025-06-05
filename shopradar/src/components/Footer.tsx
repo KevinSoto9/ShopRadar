@@ -22,11 +22,10 @@ function Footer() {
             Supermercados disponibles
           </h4>
           <ul className="space-y-1 text-gray-400 text-sm">
-            <li>Mercadona</li>
-            <li>Carrefour</li>
-            <li>Alcampo</li>
-            <li>DIA</li>
-            <li>Lidl</li>
+            <li>SuperMercado España</li>
+            <li>MercadoPlusr</li>
+            <li>SuperAhorro</li>
+            <li>MercadoFresco</li>
           </ul>
         </div>
 

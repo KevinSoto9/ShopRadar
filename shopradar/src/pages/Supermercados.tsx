@@ -1,11 +1,11 @@
 import SupermarketCard from '../components/SupermarketCard';
-import productsData from '../../products.json'; // Assuming this path is correct based on previous interactions
+import productsData from '../../products.json';
 
 function Supermercados() {
     const supermarkets = productsData.supermarkets;
     const totalSupermarkets = supermarkets.length;
     const totalProducts = 155;
-    const activeOffers = 143;
+    const activeOffers = 32;
     const lastUpdate = '24 horas'; 
 
     return (

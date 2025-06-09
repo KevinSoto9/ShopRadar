@@ -48,7 +48,7 @@ function ContenidoInicio() {
                         </p>
                     </span>
                     <span className="text-green-500 text-3xl flex flex-col items-center justify-center gap-2 font-bold">
-                        200
+                        155
                         <p className="text-gray-700 text-base font-normal">
                             Productos
                         </p>

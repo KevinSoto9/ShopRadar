@@ -4,7 +4,7 @@ import productsData from '../../products.json'; // Assuming this path is correct
 function Supermercados() {
     const supermarkets = productsData.supermarkets;
     const totalSupermarkets = supermarkets.length;
-    const totalProducts = 50000;
+    const totalProducts = 155;
     const activeOffers = 143;
     const lastUpdate = '24 horas'; 
 
@@ -28,7 +28,7 @@ function Supermercados() {
                         <p className="text-gray-600">Supermercados</p>
                     </div>
                     <div className="bg-white rounded-lg shadow-md p-6 text-center">
-                        <p className="text-3xl font-bold text-green-600">{totalProducts}+</p>
+                        <p className="text-3xl font-bold text-green-600">{totalProducts}</p>
                         <p className="text-gray-600">Productos</p>
                     </div>
                     <div className="bg-white rounded-lg shadow-md p-6 text-center">

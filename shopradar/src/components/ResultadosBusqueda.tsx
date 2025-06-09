@@ -65,6 +65,12 @@ export default function ResultadosBusqueda({ resultados, busquedaRealizada }: Re
                             <p className="text-sm text-gray-600 mb-2">{producto.brand}</p>
                             <div className="flex justify-between items-center">
                                 <span className="text-sm text-gray-500">{producto.category}</span>
+                                <button className="flex items-center gap-2 px-4 py-2 bg-orange-500 text-white rounded-full text-sm font-semibold hover:bg-orange-600 transition-colors duration-300">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.023.832l.215 1.022A3.75 3.75 0 006.012 9.75H19.95a3.75 3.75 0 003.632-4.39L21.8 3.373a4.5 4.5 0 00-2.322-1.424M12 19.5a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5zM12 19.5H8.25h-2.25m0 0H3.632c-.386 0-.752.183-.984.406l-.067.067A1.725 1.725 0 002.25 10.5V19.5m10.5-11.25h2.25m-2.25 0h-1.5m-2.25 0h-2.25" />
+                                    </svg>
+                                    Ver oferta
+                                </button>
                             </div>
                         </div>
                     </div>

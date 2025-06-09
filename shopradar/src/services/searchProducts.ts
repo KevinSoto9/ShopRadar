@@ -6,6 +6,7 @@ interface Product {
     image: string;
     category: string;
     brand: string;
+    discount?: number;
 }
 
 interface Supermarket {
@@ -23,7 +24,7 @@ interface ProductsData {
 
 import productsData from '../../products.json';
 
-function searchProducts(query: string): ProductWithSupermarket[] {
+function getAllProducts(query: string = ""): ProductWithSupermarket[] {
     const searchQuery: string = query.toLowerCase();
     
     const allProducts: ProductWithSupermarket[] = [];
@@ -51,8 +52,46 @@ function searchProducts(query: string): ProductWithSupermarket[] {
     return allProducts;
 }
 
+interface PaginatedOffers {
+    products: ProductWithSupermarket[];
+    totalPages: number;
+}
+
+function getFilteredOffers(minDiscount: number, page: number, limit: number = 9): PaginatedOffers {
+    const allOffers: ProductWithSupermarket[] = [];
+
+    productsData.supermarkets.forEach((supermarket: Supermarket) => {
+        supermarket.products.forEach((product: Product) => {
+            if (product.discount && product.discount >= minDiscount) {
+                allOffers.push({
+                    ...product,
+                    supermarket: supermarket.name
+                });
+            }
+        });
+    });
+
+    allOffers.sort((a: ProductWithSupermarket, b: ProductWithSupermarket) => {
+        if (a.discount && b.discount) {
+            return b.discount - a.discount;
+        }
+        return 0;
+    });
+
+    const startIndex = (page - 1) * limit;
+    const endIndex = startIndex + limit;
+    const paginatedProducts = allOffers.slice(startIndex, endIndex);
+    const totalPages = Math.ceil(allOffers.length / limit);
+
+    return {
+        products: paginatedProducts,
+        totalPages: totalPages
+    };
+}
+
 export {
-    searchProducts,
+    getAllProducts,
+    getFilteredOffers,
 };
 
 export type {

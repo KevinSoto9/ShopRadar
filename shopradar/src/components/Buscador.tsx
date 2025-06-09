@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Lupa from "./icons/Lupa";
 import ElementoBusqueda from "./ElementoBusqueda";
-import { searchProducts } from "../services/searchProducts";
+import { getAllProducts } from "../services/searchProducts";
 import type { ProductWithSupermarket } from "../services/searchProducts";
 
 interface BuscadorProps {
@@ -17,13 +17,13 @@ function Buscador({ onBusqueda }: BuscadorProps) {
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
         e.preventDefault();
-        const resultadosBusqueda = searchProducts(busqueda);
+        const resultadosBusqueda = getAllProducts(busqueda);
         onBusqueda(resultadosBusqueda, true);
     };
 
     const handleBusquedaRapida = (termino: string): void => {
         setBusqueda(termino);
-        const resultadosBusqueda = searchProducts(termino);
+        const resultadosBusqueda = getAllProducts(termino);
         onBusqueda(resultadosBusqueda, true);
     };
 

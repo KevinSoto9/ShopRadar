@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import ResultadosBusqueda from '../components/ResultadosBusqueda';
 import { getFilteredOffers } from '../services/searchProducts';
 import type { ProductWithSupermarket } from '../services/searchProducts';

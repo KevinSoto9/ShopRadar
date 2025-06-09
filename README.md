@@ -5,7 +5,7 @@ ShopRadar es una aplicación web frontend de demostración para buscar y compara
 > **Nota Importante**: Este es un proyecto de demostración frontend. Todos los datos mostrados (productos, precios, tiendas) son completamente ficticios y se utilizan únicamente con fines de presentación del diseño y la interfaz de usuario. No se realiza ninguna búsqueda real de productos ni comparación de precios en tiempo real.
 
 ## 🌐 Demo
-👉 [Ver Demo en Vercel](shopradarweb.vercel.app)
+👉 [Ver Demo en Vercel](https://shopradarweb.vercel.app/)
 
 ## 🚀 Características
 - Interfaz moderna y responsiva
